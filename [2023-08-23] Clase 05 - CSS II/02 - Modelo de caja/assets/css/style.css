@@ -1,0 +1,62 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+section {
+    margin: 3rem 0;
+}
+
+#block>p {
+    display: block;
+    width: 50%;
+
+    padding: 8px;
+    border: 1px solid black;
+}
+
+#inline>a {
+    display: inline;
+    /* visibility: hidden; */
+
+    width: 200px;
+    padding: 16px;
+    border: 1px solid black;
+}
+
+#inline:hover {
+    visibility: hidden;
+}
+
+#inline-block>a {
+    display: inline-block;
+
+    width: 200px;
+    padding: 16px;
+    border: 1px solid black;
+}
+
+#sizing>div {
+    display: inline-block;
+
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    padding: 16px;
+    border: 1px solid black;
+
+    background: crimson;
+}
+
+#content-box {
+    box-sizing: content-box;
+}
+
+#border-box {
+    box-sizing: border-box;
+}

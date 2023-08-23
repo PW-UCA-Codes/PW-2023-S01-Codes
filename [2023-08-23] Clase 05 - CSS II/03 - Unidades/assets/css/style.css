@@ -1,0 +1,49 @@
+:root {
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+#ch>p {
+    width: 50ch;
+    border: 1px solid black;
+
+    overflow: auto;
+}
+
+.mono {
+    font-family: monospace;
+}
+
+#em-rem {
+    font-size: 10px;
+}
+
+#em-rem>div{
+    width: 100px;
+    height: 100px;
+
+    margin: 8px;
+
+    border: 1px solid crimson;
+}
+
+.em-box {
+    padding: 1em;
+}
+
+.rem-box {
+    padding: 1rem;
+}
+
+#vh {
+    background: aliceblue;
+}
