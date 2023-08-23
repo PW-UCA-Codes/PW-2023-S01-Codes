@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Interacción </title>
+</head>
+<body>
+    <button onclick="alert('Hola');">
+        Click
+    </button>
+
+    <form action="">
+        <input type="text">
+        <input type="password">
+        <input type="date">
+        <input type="color">
+        <input type="file">
+        <input type="number">
+
+        <select>
+            <option value="value-01">Valor 01</option>
+            <option value="value-02">Valor 02</option>
+            <option value="value-03">Valor 03</option>
+        </select>
+    </form>
+
+    <hr>
+
+    <form action="index.html" method="post">
+        <input type="text" name="username">
+        <input type="password" name="password">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <hr>
+
+    <form action="index.html">
+        <fieldset>
+            <legend> Login </legend>
+            <label>
+                Username: 
+                <input placeholder="e.g. Example" type="text" name="username">
+            </label>
+            
+            <label for="password-field"> Password: </label>
+            <input id="password-field" placeholder="e.g. 12345678Aa!" type="password" name="password">
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reset">
+        </fieldset>
+
+        <fieldset>
+            <legend> General </legend>
+
+            <input type="text" name="" id="">
+            <input type="text" name="" id="">
+            <input type="text" name="" id="">
+            <input type="text" name="" id="">
+            <input type="text" name="" id="">
+        </fieldset>
+    </form>
+
+</body>
+</html>

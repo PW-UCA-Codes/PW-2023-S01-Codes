@@ -1,0 +1,22 @@
+section p {
+    font-family: "Montserrat", sans-serif;
+}
+
+section>p {
+    padding: 0 8px;
+    text-align: center;
+}
+
+section>div p>strong#bold {
+    color: crimson;
+}
+
+article h3+p{
+    color: #aaa;
+}
+
+article h3~p{
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    font-size: smaller;
+}

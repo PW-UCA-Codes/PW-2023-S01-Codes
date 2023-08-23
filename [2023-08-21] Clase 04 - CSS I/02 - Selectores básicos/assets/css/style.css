@@ -1,0 +1,38 @@
+p {
+    background-color: #eee;
+    font-family: monospace;
+}
+
+.fancy-text {
+    font-family: "Montserrat" ,sans-serif;
+}
+
+.fancy-text:hover{
+    color: crimson;
+}
+
+#unique {
+    padding: 8px 4px;
+    border: 1px solidack;
+    border-radius: 5px;
+    
+    font-family: "Roboto", sans-serif;
+}
+
+button::before {
+    content: "Antes: ";
+    font-family: "Roboto", sans-serif;
+}
+
+button::after {
+    content: "<----";
+}
+
+input {
+    padding: 4px;
+}
+
+[type="password"] {
+    background-color: black;
+    color: white;
+}
