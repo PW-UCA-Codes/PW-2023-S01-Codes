@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <title>Flex</title>
+</head>
+<body>
+    <section>
+        <h3> Ejemplo general </h3>
+
+        <div class="flex">
+            <!-- (div.box>{$$})*3 -->
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+        </div>
+    </section>
+
+    <section>
+        <h3> Direcciones </h3>
+
+        <div class="flex" id="row">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+        </div>
+        <div class="flex" id="row-reverse">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+        </div>
+        <div class="flex" id="column">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+        </div>
+        <div class="flex" id="column-reverse">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+        </div>
+    </section>
+    <section>
+        <h3> Colapso </h3>
+
+        <!-- div.flex#*3 -->
+        <!-- <div class="flex" id="no-wrap">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div> -->
+        <div class="flex" id="wrap">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div>
+        <div class="flex" id="wrap-reverse">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div>
+        <div class="flex" id="col-wrap-reverse">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div>
+    </section>
+
+    <section>
+        <h3> Distribución </h3>
+
+        <!-- (div.flex#>((div.box>{$$})*20))*3 -->
+        <div class="flex wrap" id="justify">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div>
+        <div class="flex wrap" id="items">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div>
+        <div class="flex wrap" id="content">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div>
+    </section>
+
+    <section>
+        <h3> Items </h3>
+        <div class="flex" id="sizes">
+            <div class="box">01</div>
+            <div class="box">02</div>
+            <div class="box">03</div>
+            <div class="box">04</div>
+            <div class="box">05</div>
+            <div class="box">06</div>
+            <div class="box">07</div>
+            <div class="box">08</div>
+            <div class="box">09</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+            <div class="box">13</div>
+            <div class="box">14</div>
+            <div class="box">15</div>
+            <div class="box">16</div>
+            <div class="box">17</div>
+            <div class="box">18</div>
+            <div class="box">19</div>
+            <div class="box">20</div>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex center">
+            <div class="box">00</div>
+        </div>
+    </section>
+</body>
+</html>
