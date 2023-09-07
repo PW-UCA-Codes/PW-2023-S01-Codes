@@ -1,0 +1,22 @@
+@use "../utilities" as u;
+
+:root {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+
+    font-family: u.$theme-items-font;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+body {
+    width: 100%;
+    background: u.$theme-background-color;
+}

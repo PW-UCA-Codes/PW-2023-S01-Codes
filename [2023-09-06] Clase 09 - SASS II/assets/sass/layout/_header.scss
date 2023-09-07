@@ -1,0 +1,19 @@
+@use "../utilities" as u;
+
+body>header {
+    padding: u.$theme-base-spacing;
+
+    background-color: black;
+    color: white;
+
+    position: sticky;
+    top: 0;
+
+    border-radius: 0 0 u.$theme-base-spacing u.$theme-base-spacing;
+
+    h1 {
+        font-family: u.$theme-title-font;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
