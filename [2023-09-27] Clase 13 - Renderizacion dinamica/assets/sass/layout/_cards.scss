@@ -1,0 +1,100 @@
+@use "../utilities" as u;
+
+.cards {
+    width: 100%;
+    min-height: 100vh;
+
+
+    padding: u.$theme-base-spacing;
+
+    @include u.flexbox();
+    justify-content: center;
+    align-content: center;
+
+    .card {
+        padding: u.$theme-base-spacing;
+
+        flex: 1 0.60 u.$card-base-width;
+
+        background: white;
+
+        @include u.flexbox(column, nowrap);
+        align-items: center;
+        justify-content: space-between;
+
+        @include u.raindrop-br();
+        box-shadow: u.$material-box-shadow;
+
+        >figure {
+            @include u.square(12rem);
+
+            border-radius: 50%;
+            overflow: hidden;
+
+            img {
+                @include u.fliud-image();
+            }
+        }
+
+        >h3 {
+            font-family: u.$theme-title-font;
+            font-size: 1.3rem;
+
+            &.email {
+                color: #333;
+                font-style: italic;
+            }
+        }
+
+        .text-container {
+            @include u.flexbox(column, nowrap, u.$theme-base-spacing * 0.5);
+
+            p {
+                text-align: justify;
+                font-family: sans-serif;
+            }
+        }
+
+        .btn-container {
+            align-self: stretch;
+
+            @include u.flexbox();
+
+            button {
+                flex: 1 0;
+                padding: u.$theme-base-spacing * 0.75;
+
+                border: none;
+                background: none;
+                color: white;
+
+                text-transform: capitalize;
+                font-family: u.$theme-items-font;
+                font-size: 1.2rem;
+
+                @include u.raindrop-br(0.5 * u.$theme-base-spacing);
+
+                cursor: pointer;
+                transition: all ease-in-out 250ms;
+
+                &:hover {
+                    transform: scale(1.02);
+                }
+
+                &:first-child {
+                    background-color: u.$theme-accept-color;
+                }
+
+                &:last-child {
+                    background-color: u.$theme-deny-color;
+                }
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            & {
+                max-width: 450px;
+            }
+        }
+    }
+}
