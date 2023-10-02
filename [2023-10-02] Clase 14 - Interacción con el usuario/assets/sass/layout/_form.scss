@@ -1,0 +1,35 @@
+@use "../utilities" as u;
+
+section.form-section {
+    width: 100%;
+    padding: u.$theme-base-spacing;
+
+    @include u.flexbox();
+    justify-content: center;
+    align-items: center;
+
+    >form {
+        max-width: 500px;
+        flex-grow: 1;
+        padding: u.$theme-base-spacing;
+        border-radius: 8px;
+
+        background: white;
+
+        @include u.flexbox(column, nowrap);
+
+        label {
+            @include u.flexbox(column, nowrap, 0.5rem);
+
+            input, textarea {
+                padding: u.$theme-base-spacing / 2;
+                resize: none;
+            }
+        }
+
+        [type="submit"] {
+            padding: u.$theme-base-spacing / 2;
+            
+        }
+    }
+}
