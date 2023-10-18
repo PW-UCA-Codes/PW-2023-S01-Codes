@@ -1,11 +1,13 @@
 import Controls from "./Controls/Controls";
 import PokeList from "./PokeList/PokeList";
 
-const PokeResults = ({ results=[] }) => {
+const PokeResults = ({ results=[], onNext=()=> {}, onPrev=()=> {}, onAdd=()=> {} }) => {
     return (
         <section className="flex flex-col items-center justify-center p-4 gap-4">
-            <Controls />
-            <PokeList results={results} />
+            <Controls onNext={onNext} onPrev={onPrev}/>
+            <PokeList 
+                onAdd={onAdd}
+                results={results} />
         </section>
     );
 }
