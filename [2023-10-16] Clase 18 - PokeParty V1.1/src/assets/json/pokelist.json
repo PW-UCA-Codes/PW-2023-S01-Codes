@@ -1,0 +1,322 @@
+[
+  {
+    "index": 20,
+    "name": "raticate",
+    "height": 7,
+    "weight": 185,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+    "types": ["normal"],
+    "stats": [
+      { "stat": 55, "name": "hp" },
+      { "stat": 81, "name": "atk" },
+      { "stat": 60, "name": "def" },
+      { "stat": 50, "name": "s-atk" },
+      { "stat": 70, "name": "s-def" },
+      { "stat": 97, "name": "spd" }
+    ]
+  },
+  {
+    "index": 19,
+    "name": "rattata",
+    "height": 3,
+    "weight": 35,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+    "types": ["normal"],
+    "stats": [
+      { "stat": 30, "name": "hp" },
+      { "stat": 56, "name": "atk" },
+      { "stat": 35, "name": "def" },
+      { "stat": 25, "name": "s-atk" },
+      { "stat": 35, "name": "s-def" },
+      { "stat": 72, "name": "spd" }
+    ]
+  },
+  {
+    "index": 18,
+    "name": "pidgeot",
+    "height": 15,
+    "weight": 395,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+    "types": ["normal", "flying"],
+    "stats": [
+      { "stat": 83, "name": "hp" },
+      { "stat": 80, "name": "atk" },
+      { "stat": 75, "name": "def" },
+      { "stat": 70, "name": "s-atk" },
+      { "stat": 70, "name": "s-def" },
+      { "stat": 101, "name": "spd" }
+    ]
+  },
+  {
+    "index": 17,
+    "name": "pidgeotto",
+    "height": 11,
+    "weight": 300,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+    "types": ["normal", "flying"],
+    "stats": [
+      { "stat": 63, "name": "hp" },
+      { "stat": 60, "name": "atk" },
+      { "stat": 55, "name": "def" },
+      { "stat": 50, "name": "s-atk" },
+      { "stat": 50, "name": "s-def" },
+      { "stat": 71, "name": "spd" }
+    ]
+  },
+  {
+    "index": 16,
+    "name": "pidgey",
+    "height": 3,
+    "weight": 18,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+    "types": ["normal", "flying"],
+    "stats": [
+      { "stat": 40, "name": "hp" },
+      { "stat": 45, "name": "atk" },
+      { "stat": 40, "name": "def" },
+      { "stat": 35, "name": "s-atk" },
+      { "stat": 35, "name": "s-def" },
+      { "stat": 56, "name": "spd" }
+    ]
+  },
+  {
+    "index": 15,
+    "name": "beedrill",
+    "height": 10,
+    "weight": 295,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+    "types": ["bug", "poison"],
+    "stats": [
+      { "stat": 65, "name": "hp" },
+      { "stat": 90, "name": "atk" },
+      { "stat": 40, "name": "def" },
+      { "stat": 45, "name": "s-atk" },
+      { "stat": 80, "name": "s-def" },
+      { "stat": 75, "name": "spd" }
+    ]
+  },
+  {
+    "index": 14,
+    "name": "kakuna",
+    "height": 6,
+    "weight": 100,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+    "types": ["bug", "poison"],
+    "stats": [
+      { "stat": 45, "name": "hp" },
+      { "stat": 25, "name": "atk" },
+      { "stat": 50, "name": "def" },
+      { "stat": 25, "name": "s-atk" },
+      { "stat": 25, "name": "s-def" },
+      { "stat": 35, "name": "spd" }
+    ]
+  },
+  {
+    "index": 13,
+    "name": "weedle",
+    "height": 3,
+    "weight": 32,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+    "types": ["bug", "poison"],
+    "stats": [
+      { "stat": 40, "name": "hp" },
+      { "stat": 35, "name": "atk" },
+      { "stat": 30, "name": "def" },
+      { "stat": 20, "name": "s-atk" },
+      { "stat": 20, "name": "s-def" },
+      { "stat": 50, "name": "spd" }
+    ]
+  },
+  {
+    "index": 12,
+    "name": "butterfree",
+    "height": 11,
+    "weight": 320,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+    "types": ["bug", "flying"],
+    "stats": [
+      { "stat": 60, "name": "hp" },
+      { "stat": 45, "name": "atk" },
+      { "stat": 50, "name": "def" },
+      { "stat": 90, "name": "s-atk" },
+      { "stat": 80, "name": "s-def" },
+      { "stat": 70, "name": "spd" }
+    ]
+  },
+  {
+    "index": 11,
+    "name": "metapod",
+    "height": 7,
+    "weight": 99,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+    "types": ["bug"],
+    "stats": [
+      { "stat": 50, "name": "hp" },
+      { "stat": 20, "name": "atk" },
+      { "stat": 55, "name": "def" },
+      { "stat": 25, "name": "s-atk" },
+      { "stat": 25, "name": "s-def" },
+      { "stat": 30, "name": "spd" }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "caterpie",
+    "height": 3,
+    "weight": 29,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+    "types": ["bug"],
+    "stats": [
+      { "stat": 45, "name": "hp" },
+      { "stat": 30, "name": "atk" },
+      { "stat": 35, "name": "def" },
+      { "stat": 20, "name": "s-atk" },
+      { "stat": 20, "name": "s-def" },
+      { "stat": 45, "name": "spd" }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "blastoise",
+    "height": 16,
+    "weight": 855,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+    "types": ["water"],
+    "stats": [
+      { "stat": 79, "name": "hp" },
+      { "stat": 83, "name": "atk" },
+      { "stat": 100, "name": "def" },
+      { "stat": 85, "name": "s-atk" },
+      { "stat": 105, "name": "s-def" },
+      { "stat": 78, "name": "spd" }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "wartortle",
+    "height": 10,
+    "weight": 225,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+    "types": ["water"],
+    "stats": [
+      { "stat": 59, "name": "hp" },
+      { "stat": 63, "name": "atk" },
+      { "stat": 80, "name": "def" },
+      { "stat": 65, "name": "s-atk" },
+      { "stat": 80, "name": "s-def" },
+      { "stat": 58, "name": "spd" }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "squirtle",
+    "height": 5,
+    "weight": 90,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "types": ["water"],
+    "stats": [
+      { "stat": 44, "name": "hp" },
+      { "stat": 48, "name": "atk" },
+      { "stat": 65, "name": "def" },
+      { "stat": 50, "name": "s-atk" },
+      { "stat": 64, "name": "s-def" },
+      { "stat": 43, "name": "spd" }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "charizard",
+    "height": 17,
+    "weight": 905,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "types": ["fire", "flying"],
+    "stats": [
+      { "stat": 78, "name": "hp" },
+      { "stat": 84, "name": "atk" },
+      { "stat": 78, "name": "def" },
+      { "stat": 109, "name": "s-atk" },
+      { "stat": 85, "name": "s-def" },
+      { "stat": 100, "name": "spd" }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "charmeleon",
+    "height": 11,
+    "weight": 190,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+    "types": ["fire"],
+    "stats": [
+      { "stat": 58, "name": "hp" },
+      { "stat": 64, "name": "atk" },
+      { "stat": 58, "name": "def" },
+      { "stat": 80, "name": "s-atk" },
+      { "stat": 65, "name": "s-def" },
+      { "stat": 80, "name": "spd" }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "charmander",
+    "height": 6,
+    "weight": 85,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "types": ["fire"],
+    "stats": [
+      { "stat": 39, "name": "hp" },
+      { "stat": 52, "name": "atk" },
+      { "stat": 43, "name": "def" },
+      { "stat": 60, "name": "s-atk" },
+      { "stat": 50, "name": "s-def" },
+      { "stat": 65, "name": "spd" }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "venusaur",
+    "height": 20,
+    "weight": 1000,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "types": ["grass", "poison"],
+    "stats": [
+      { "stat": 80, "name": "hp" },
+      { "stat": 82, "name": "atk" },
+      { "stat": 83, "name": "def" },
+      { "stat": 100, "name": "s-atk" },
+      { "stat": 100, "name": "s-def" },
+      { "stat": 80, "name": "spd" }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "ivysaur",
+    "height": 10,
+    "weight": 130,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+    "types": ["grass", "poison"],
+    "stats": [
+      { "stat": 60, "name": "hp" },
+      { "stat": 62, "name": "atk" },
+      { "stat": 63, "name": "def" },
+      { "stat": 80, "name": "s-atk" },
+      { "stat": 80, "name": "s-def" },
+      { "stat": 60, "name": "spd" }
+    ]
+  },
+  {
+    "index": 1,
+    "name": "bulbasaur",
+    "height": 7,
+    "weight": 69,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "types": ["grass", "poison"],
+    "stats": [
+      { "stat": 45, "name": "hp" },
+      { "stat": 49, "name": "atk" },
+      { "stat": 49, "name": "def" },
+      { "stat": 65, "name": "s-atk" },
+      { "stat": 65, "name": "s-def" },
+      { "stat": 45, "name": "spd" }
+    ]
+  }
+]
